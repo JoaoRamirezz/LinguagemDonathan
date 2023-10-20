@@ -15,6 +15,7 @@ Profetizou("Olá Mundo!")
 A cultura linguística de Don possui, assim como muitas outras, declaração de variáveis (Ainda não profetizado), controle de estruturas (Ainda não profetizado), estrutura de dados (Ainda não profetizado).
 
 Abaixo seguem alguns exemplos de referência:
+
 Prints de String:
 ```
 Profetizou("Minhas turminhas...")
