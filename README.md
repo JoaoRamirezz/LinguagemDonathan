@@ -8,7 +8,7 @@ Logo abaixo consta o manual de referência para a melhor linguagem já feita den
 #### **1. Hello World**
 Ao começar um arquivo .don você será muito bem recebido com a professia de nosso Sábio: Olá Mundo! 
 ```
-Profetizou("Olá Mundo!")
+profetizou("Olá Mundo!")
 ```
 
 #### **2. Fundamentos**
