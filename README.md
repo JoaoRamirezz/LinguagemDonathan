@@ -42,4 +42,5 @@ Ao utilizar a cultura de Donathan, seguir determinadas práticas evitam que ele 
 Don não chegou nesse estado ainda =(
 
 #### **6. Especificação Técnica / Formal**
-Para utilizar a linguagem Don, é feito primeiro a compilação em Python, logo em seguida é criado um .txt para que o interpretador em JavaScript possa executar o que foi escrito nos arquivos .don. Contudo, devido ao estado de desenvolvimento inicial, **_para rodar qualquer código feito em .don novavemente será necessário excluir o conteúdo do arquivo de texto_**, caso contrário o usuário poderá receber respostas inesperadas.
+Para utilizar a linguagem Don, escreva o código no arquivo .don, compile em Python, logo em seguida é criado um .txt para que o interpretador em JavaScript possa executar o que foi escrito nos arquivos .don. Contudo, devido ao estado de desenvolvimento inicial, **_para rodar qualquer código feito em .don novavemente será necessário excluir o conteúdo do arquivo de texto_**, caso contrário o usuário poderá receber respostas inesperadas.
+
