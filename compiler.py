@@ -9,8 +9,24 @@ def asciiConvert(variable):
     for i in w:
         ascii.append(i)
     ascii.append(0)
+    try:
+        ascii.remove(10)
+    except:
+        None
 
-            
+
+def writeTXT():
+    arquivo = open("execute.txt", "a")
+    
+    for func in funcs:
+        arquivo.write(str(func) + ", ")
+    
+    arquivo.write("\n")
+    
+    for char in ascii:
+        arquivo.write(str(char) + ", ")
+        
+    arquivo.close()
             
             
 try:
@@ -57,28 +73,29 @@ try:
                             
                         
                 elif(count_aspas == 1):
-                    print("donathan se perdeu em seus pensamentos (n fechou as aspas)")
+                    print("Error: Donathan se perdeu em seus pensamentos (n fechou as aspas)")
                 
                 else:
                     string = string[aspas_1+1:aspas_2+1]
                     asciiConvert(string)
                 
             except:
-                print("Don não sabe até onde profetizar")
+                print("Error: Don não sabe até onde profetizar")
+        
+        if "refletiu se "  in i:
+            funcs.append(2)
+            string = ""
+            for j in i[12 : len(i)]:
+                if j != " ":
+                    string += j
+                    
+            asciiConvert(string)
+            
+        
     
     f.close()
     
-    arquivo = open("execute.txt", "a")
-    
-    for func in funcs:
-        arquivo.write(str(func) + ", ")
-    
-    arquivo.write("\n")
-    
-    for char in ascii:
-        arquivo.write(str(char) + ", ")
-        
-    arquivo.close()
+    writeTXT()
                
 
                 

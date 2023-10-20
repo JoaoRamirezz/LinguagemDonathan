@@ -1,3 +1,5 @@
-profetizou("a")
-profetizou("b")
-profetizou("c")
+refletiu se 10 < 18 
+    profetizou("f")
+
+refletiu se 20 < 18 
+    profetizou("c")
