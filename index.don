@@ -1,3 +1,4 @@
 profetizou("a")
 profetizou("b")
-profetizou("c")
+profetizou("10 < 18")
+profetizou(2+2)
