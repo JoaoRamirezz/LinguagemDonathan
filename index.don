@@ -1,4 +1,1 @@
-profetizou("c")
-refletiu se 20 < 18
-    profetizou("b")
-profetizou("d")
+profetizou("hello world!")
