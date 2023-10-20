@@ -28,7 +28,7 @@ profetizou(4 + 4 + 9)
 
 Condicionais:
 ```
-refletiu se  5 < 9
+refletiu se  10 < 19
   profetizou("Me parece certo..")
 ```
 
