@@ -51,9 +51,24 @@ async function main() {
 						word.push(String.fromCharCode(ascss[onde_esta]))
 						onde_esta += 1;
 					}
-					var wordString = word.join('');
-					wordString = allReplace(wordString, { ',': '' });
-					
+					for (let indexA = 0; indexA < word.length; indexA++) {
+						if(word[indexA] == "<")
+						{
+							var op1 = word[indexA-2] + word[indexA-1]
+							var op2 = word[indexA+1] + word[indexA+2]
+							op1 = parseInt(op1)
+							op2 = parseInt(op2)
+							if(op1 < op2)
+							{
+								break;
+							}
+							else
+							{
+								onde_esta +=2
+								i+=1
+							}
+						}
+					}
 					onde_esta += 1
 					break;
 

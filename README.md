@@ -20,17 +20,26 @@ Prints de String:
 ```
 Profetizou("Minhas turminhas...")
 ```
+
 Prints de Operações:
 ```
 Profetizou(4 + 4 + 9)
 ```
+
 Condicionais:
 ```
-Ta Refletindo sobre, pera aí
+refletiu se  5 < 9
+  Profetizou("Me parece certo..")
 ```
 
 #### **3. Tópicos Avançados**
 Don não possui tópicos avançados em sua filosofia, todos os comandos são simplificados dentro de suas Profetizações ou Reflexões
 
 #### **4. Guia de Utilização / Boas Práticas**
-Ao utilizar a linguagem de Donathan, 
+Ao utilizar a cultura de Donathan, seguir determinadas práticas evitam que ele tenha problemas em entender o que ele realmente precisa fazer (AKA: Utilizem somas e prints apenas dentro de Profetizou() e condicionais simples apenas em refletiu se <>. Todos os espaços dados nos exemplos entre uma digitação e outra ajudam o Don a funcionar corretamente).
+
+#### **5. Quircks**
+Don não chegou nesse estado ainda =(
+
+#### **6. Especificação Técnica / Formal**
+Para utilizar a linguagem Don, é feito primeiro a compilação em Python, logo em seguida é criado um .txt para que o interpretador em JavaScript possa executar o que foi escrito nos arquivos .Don. Contudo, devido ao estado de desenvolvimento inicial, **_para rodar qualquer código feito em .don novavemente será necessário excluir o conteúdo do arquivo de texto_**, caso contrário o usuário poderá receber respostas inesperadas.

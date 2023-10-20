@@ -1,4 +1,4 @@
-profetizou("a")
-profetizou("b")
-profetizou("10 < 18")
-profetizou(2+2)
+profetizou("c")
+refletiu se 20 < 18
+    profetizou("b")
+profetizou("d")
