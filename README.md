@@ -36,7 +36,7 @@ refletiu se  5 < 9
 Don não possui tópicos avançados em sua filosofia, todos os comandos são simplificados dentro de suas Profetizações ou Reflexões
 
 #### **4. Guia de Utilização / Boas Práticas**
-Ao utilizar a cultura de Donathan, seguir determinadas práticas evitam que ele tenha problemas em entender o que ele realmente precisa fazer (AKA: **Utilizem somas e prints apenas dentro de profetizou() e condicionais simples apenas em refletiu se <>)**. Todos os espaços dados nos exemplos entre uma digitação e outra ajudam o Don a funcionar corretamente).
+Ao utilizar a cultura de Donathan, seguir determinadas práticas evitam que ele tenha problemas em entender o que ele realmente precisa fazer (AKA: **Utilizem somas e prints apenas dentro de profetizou() e condicionais simples apenas em refletiu se <>, este juntamente só faz operações com numeros com 2 algorismos)**. Todos os espaços dados nos exemplos entre uma digitação e outra ajudam o Don a funcionar corretamente).
 
 #### **5. Quircks**
 Don não chegou nesse estado ainda =(
